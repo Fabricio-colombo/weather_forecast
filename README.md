@@ -1,35 +1,32 @@
-# Projeto de Previsão do Tempo com Interface Tkinter
-Introdução
-Este projeto tem como objetivo criar uma aplicação de previsão do tempo utilizando a linguagem de programação Python e a biblioteca Tkinter para a construção da interface gráfica. A previsão do tempo será obtida através da API do OpenWeather.
+# Weather Forecast Project with Tkinter Interface
 
-Configuração da API
-Antes de iniciar o projeto, é necessário obter uma chave de API no OpenWeather. Utilizaremos a chave fornecida pelo usuário:
+## Introduction
+This project aims to create a weather forecast application using the Python programming language and the Tkinter library for building the graphical interface. The weather forecast data will be obtained through the OpenWeather API.
+
+## API Configuration
+Before starting the project, it's necessary to obtain an API key from OpenWeather. We will use the key provided by the user:
+```python
 API_KEY = "184fd29779e314cea46590e9c90bb957"
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
-Funcionalidades
-Interface Gráfica com Tkinter:
-
-Utilizaremos a biblioteca Tkinter para criar uma interface amigável e intuitiva.
-Elementos gráficos incluirão campos de entrada para a cidade desejada e botão para obter a previsão.
-Conexão com a API do OpenWeather:
-
-Implementaremos uma função para realizar requisições à API do OpenWeather, utilizando a chave e o URL configurados.
-Tratamento dos Dados da API:
-
-Faremos o tratamento dos dados obtidos da API para extrair as informações relevantes da previsão do tempo.
-Exibição da Previsão:
-
-Apresentaremos de forma clara e organizada as informações da previsão do tempo na interface gráfica.
-Melhorias na Interface:
-
-Adicionaremos elementos visuais, como ícones ou imagens, para representar as condições climáticas.
-Possibilitaremos a escolha de unidades de medida (Celsius, Fahrenheit, etc.) na interface.
-Instruções de Uso
-Clone o repositório para sua máquina local.
-Execute o script Python.
-Insira a cidade desejada na interface.
-Clique no botão de obtenção da previsão.
-Observe as informações apresentadas na interface.
-Considerações Finais
-Este projeto proporciona uma experiência prática na integração de uma API de previsão do tempo com uma interface gráfica usando Tkinter. Sinta-se à vontade para contribuir, sugerir melhorias ou adaptar o código conforme suas necessidades. Agradecemos por utilizar este projeto e esperamos que seja útil para suas aplicações de previsão do tempo.
+Features
+Tkinter Graphical Interface:
+We will use the Tkinter library to create a user-friendly and intuitive interface.
+Graphical elements will include input fields for the desired city and a button to get the forecast.
+Connection to OpenWeather API:
+We will implement a function to make requests to the OpenWeather API, using the configured key and URL.
+API Data Handling:
+We will process the data obtained from the API to extract relevant weather forecast information.
+Forecast Display:
+We will present weather forecast information in a clear and organized manner on the graphical interface.
+Interface Enhancements:
+Visual elements, such as icons or images, will be added to represent weather conditions.
+Users will have the option to choose units of measurement (Celsius, Fahrenheit, etc.) in the interface.
+Usage Instructions
+Clone the repository to your local machine.
+Run the Python script.
+Enter the desired city in the interface.
+Click the forecast retrieval button.
+Observe the information presented on the interface.
+Final Considerations
+This project provides a hands-on experience in integrating a weather forecast API with a graphical interface using Tkinter. Feel free to contribute, suggest improvements, or adapt the code to meet your needs. Thank you for using this project, and we hope it proves helpful for your weather forecast applications.
